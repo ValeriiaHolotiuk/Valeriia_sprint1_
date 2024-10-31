@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOLOTIUK</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="left-menu">
+                <li><a href="about.html">about</a></li>
+                <li><a href="shop.html">shop</a></li>
+            </ul>
+            <h1><a href="index.html">HOLOTIUK</a></h1>
+            <ul class="right-menu">
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="reviews.html">reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="shop">
+            <div class="bouquet" onclick="selectBouquet ('Tropical Idea', 260, 'pict/flower1.jpeg')">
+                <img src="pict/flower1.jpeg" alt="Flower Arrangement 1">
+                <div class="product-title1">"tropical idea</div>
+                <div class ="product-price1">260$</div>
+                <a href="orderform.html"> <button class="order-btn">order</button></a>
+            </div>
+            <div class="bouquet" onclick="selectBouquet ('Spring Fairy', 290, 'pict/flower2.jpeg')">
+                <img src="pict/flower2.jpeg" alt="Flower Arrangement 2">
+                <div class="product-title1">"spring fairy"</div>
+                <div class ="product-price1">290$</div>
+                <a href="orderform.html"> <button class="order-btn">order</button></a>
+            </div>
+            <<div class="bouquet" onclick="selectBouquet ('Summer Dream', 300,'pict/flower3.jpeg')">
+                <img src="pict/flower3.jpeg" alt="Flower Arrangement 3">
+                <div class="product-title1">"summer dream"</div>
+                <div class ="product-price1">300$</div>
+                <a href="orderform.html"> <button class="order-btn">order</button></a>
+            </div>
+            <div class="availability-badge">available now</div>
+        </section>
+    
+        <section class="contact-section">
+            <p>Can not find something you are looking for? <br> We can certainly help you!</p>
+           <a href="contact.html"> <button class="contact-btn ">contact</button></a>
+           <a href="gallery.html"> <button class="gallery-btn ">gallery</button></a>
+        </section>
+    </main>
+    
+   
+    <footer>
+        <p>&copy; 2024 HOLOTIUK.</p>
+    </footer>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
